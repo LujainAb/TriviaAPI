@@ -103,7 +103,7 @@ The [./frontend](https://github.com/udacity/FSND/blob/master/projects/02_trivia_
 ## Deployment N/A
 
 ## Authors
-Backend both by Udacity team and i, Lujain Almutairi.  
+Backend both by Udacity team and i, Lujain Almutairi. and the frontend is enhanced by my amazing instructor @iMishaDev from Udacity Misk.
 
 ## Acknowledgements 
 Thanks to the awesome team at Udacity for this amazing opportunaity to work on this app! 
