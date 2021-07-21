@@ -1,0 +1,126 @@
+.question-view {
+  display: flex;
+  flex-direction: row;
+  background-color: #14141c;
+  color: white;
+  height: 100%;
+}
+
+.categories-list {
+  flex-basis: 15%;
+  flex-shrink: 2;
+}
+
+.categories-list > form {
+  width: 60%;
+}
+
+.questions-list {
+  flex-basis: 85%;
+  text-align: center;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.Question-holder {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 0.3rem;
+  text-align: left;
+}
+
+.Question-status {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Question {
+  font-size: 21px;
+  width: 100%;
+}
+
+.answer-holder {
+  font-size: 15px;
+  height: 25px;
+  color: #a5ce84;
+  /* margin: 5px 0px; */
+}
+
+.show-answer {
+  width: 200px;
+  margin-top: 5px;
+  background-color: #02b3e4;
+  color: white;
+  padding: 3px 5px;
+  margin-left: 0px !important;
+}
+
+span.page-num {
+  margin: 5px;
+  padding-bottom: 50px;
+  /* color: blue; */
+  font-weight: bolder;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+span.page-num.active {
+  color: #02b3e4;
+}
+
+img.category {
+  width: 20px;
+  filter: invert(56%) sepia(93%) saturate(1613%) hue-rotate(152deg) brightness(92%) contrast(99%);
+  margin-right: 10px;
+}
+
+img.delete {
+  width: 15px;
+  filter: invert(50%) sepia(52%) saturate(529%) hue-rotate(320deg) brightness(89%) contrast(95%);
+  margin-left: 10px;
+}
+
+img.visible {
+  width: 20px;
+  filter: invert(99%) sepia(7%) saturate(596%) hue-rotate(205deg) brightness(116%) contrast(100%);
+}
+
+img.udacity-logo {
+  width: 30px;
+  height: 30px;
+  padding-right: 10px;
+}
+
+
+.search-component {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0.3rem;
+}
+
+.question-category {
+  display: flex;
+  align-items: center;
+}
+
+.difficulty{
+  /* width: 20%; */
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+
+.question-actions{
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+
+}
